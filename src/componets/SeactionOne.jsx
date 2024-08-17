@@ -35,8 +35,6 @@ const SeactionOne = () => {
           </div>
         </div>
       </div>
-
-      <div className="conatinerdemo"></div>
     </>
   );
 };

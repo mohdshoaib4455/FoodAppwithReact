@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './componets/Banner'
+import Footer from './componets/Footer'
 import Navbar from './componets/Header'
 import MenuCards from './componets/MenuCards'
 import SeactionOne from './componets/SeactionOne'
@@ -18,7 +19,8 @@ function App() {
       <MenuCards />
       <SeactionOne />
       <SectionTwo />
-      <SectionThree/>
+      <SectionThree />
+      <Footer/>
     </>
   )
 }

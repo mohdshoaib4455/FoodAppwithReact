@@ -13,9 +13,15 @@
 
 .number {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   font-family: sans-serif;
   align-items: center;
+}
+.left{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
 }
 
 .number .div span {

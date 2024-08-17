@@ -45,27 +45,27 @@ const Navbar = () => {
           id="navbarNav"
         >
           <ul className="navbar-nav">
-            <li className="nav-item mx-2">
+            <li className="nav-item mx-4">
               <a className="nav-link" href="#">
                 Home
               </a>
             </li>
-            <li className="nav-item mx-2">
+            <li className="nav-item mx-4">
               <a className="nav-link" href="#">
                 About
               </a>
             </li>
-            <li className="nav-item mx-2">
+            <li className="nav-item mx-4">
               <a className="nav-link" href="#">
                 Menu
               </a>
             </li>
-            <li className="nav-item mx-2">
+            <li className="nav-item mx-4">
               <a className="nav-link" href="#">
                 Pages
               </a>
             </li>
-            <li className="nav-item mx-2">
+            <li className="nav-item mx-4">
               <a className="nav-link" href="#">
                 Contact
               </a>

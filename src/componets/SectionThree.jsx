@@ -3,18 +3,18 @@ import React from "react";
 const SectionThree = () => {
   return (
     <>
-      <div className="container-fluid my-5">
+      <div className="container-fluid bg-light py-5">
         <div className="row">
           <div className="col-12 px-5 d-flex justify-content-center align-items-center">
             <h1 className="menuH1">What Our Customers Say</h1>
           </div>
         </div>
       </div>
-      <div className="container-fluid px-5">
-        <div className="row py-3">
+      <div className="container-fluid bg-light px-5">
+        <div className="row  py-3">
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card p-4 bg-light border-0 d-flex justify-content-center align-items-center"
+              className="card p-4 border-0 d-flex justify-content-center align-items-center"
               style={{ width: "20rem" }}
             >
               <div className="card-body d-flex justify-content-center  flex-column p-3 py-2">
@@ -51,7 +51,7 @@ const SectionThree = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card p-4 bg-light border-0 d-flex justify-content-center align-items-center"
+              className="card p-4  border-0 d-flex justify-content-center align-items-center"
               style={{ width: "20rem" }}
             >
               <div className="card-body d-flex justify-content-center  flex-column p-3 py-2">
@@ -67,7 +67,7 @@ const SectionThree = () => {
                 </p>
                 <hr class="my-4 border-dark"></hr>
                 <div
-                  className="card border-0 bg-light"
+                  className="card border-0 "
                   style={{ maxWidth: 540 }}
                 >
                   <div className="row no-gutters py-2">
@@ -89,7 +89,7 @@ const SectionThree = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card p-4 bg-light border-0 d-flex justify-content-center align-items-center"
+              className="card p-4  border-0 d-flex justify-content-center align-items-center"
               style={{ width: "20rem" }}
             >
               <div className="card-body d-flex justify-content-center  flex-column p-3 py-2">

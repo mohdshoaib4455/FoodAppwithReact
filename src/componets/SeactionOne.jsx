@@ -7,11 +7,11 @@ const SeactionOne = () => {
     <>
       <div className="container-fluid w-100 h-100 p-5 ">
         <div className="row">
-          <div className="col-lg-6  section py-5">
+          <div className="col-lg-6 col-md-6 bg-info  section py-5">
             <img src={img1} alt="" />
             <div className="innerBoxContent"></div>
           </div>
-          <div className="col-lg-6 py-5   d-flex justify-content-center align-items-center flex-column">
+          <div className="col-lg-6 col-md-6 bg-danger py-5   d-flex justify-content-center align-items-center flex-column">
             <h1 className="sectionh1">
               We provide healthy <br /> food for your family.
             </h1>
@@ -32,6 +32,13 @@ const SeactionOne = () => {
           </div>
         </div>
       </div>
+
+
+
+
+<div className="conatinerdemo"></div>
+
+
     </>
   );
 };

@@ -13,7 +13,7 @@ const Banner = () => {
               </h1>
             </div>
           </div>
-          <div className="row my-3   ">
+          <div className="row my-3 my-sm-2 my-xs-1   ">
             <div className="col-lg-12">
               <p className="bannerp">
                 Discover delectable cuisine and unforgettable moments <br /> in
@@ -24,7 +24,6 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-12">
               <button className="bannerButton">Book a table</button>
-             
             </div>
           </div>
         </div>

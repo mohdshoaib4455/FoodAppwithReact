@@ -12,7 +12,7 @@ const SeactionOne = () => {
         <div className="row">
           <div className="col-lg-6 col-md-6   section py-5">
             <img src={img1} alt="" />
-            <div className="innerBoxContent"></div>
+            {/* <div className="innerBoxContent"></div> */}
           </div>
           <div className="col-lg-6 col-md-6  py-5   d-flex justify-content-center align-items-center flex-column">
             <h1 className="sectionh1">

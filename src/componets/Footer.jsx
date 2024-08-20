@@ -1,118 +1,90 @@
 import React from "react";
-import footerlogo from "../assets/logo2.png";
-import img from "../assets/burgerimg.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
-const Footer = () => {
+function Footer() {
   return (
-    <>
-      <div className="container-fluid">
-        <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-dark text-white">
-          <div className="col mb-3">
-            <a
-              href="/"
-              className="d-flex align-items-center mb-3 link-light text-decoration-none"
-            >
-              <svg className="bi me-2" width={40} height={32}>
-                <use xlinkHref="#bootstrap" />
-              </svg>
-            </a>
-            <p className="text-white">© 2024</p>
+    <footer className="bg-dark text-light py-5">
+      <div className="container">
+        <div className="row">
+          {/* Logo and Description */}
+          <div className="col-md-4 mb-4">
+            <h4>Yumly</h4>
+            <p>
+              Your go-to place for delicious recipes and culinary inspiration.
+              Explore, cook, and enjoy your favorite dishes.
+            </p>
+            <div className="d-flex">
+              <a href="#" className="text-light me-3">
+                <i className="bi bi-facebook"></i>
+              </a>
+              <a href="#" className="text-light me-3">
+                <i className="bi bi-twitter"></i>
+              </a>
+              <a href="#" className="text-light">
+                <i className="bi bi-instagram"></i>
+              </a>
+            </div>
           </div>
-          <div className="col mb-3"></div>
-          <div className="col mb-3">
-            <h5>Section</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
+
+          {/* Quick Links */}
+          <div className="col-md-4 mb-4">
+            <h5>Quick Links</h5>
+            <ul className="list-unstyled">
+              <li>
+                <a href="#" className="text-light">
                   Home
                 </a>
               </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Features
+              <li>
+                <a href="#" className="text-light">
+                  Recipes
                 </a>
               </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Pricing
+              <li>
+                <a href="#" className="text-light">
+                  Categories
                 </a>
               </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  FAQs
+              <li>
+                <a href="#" className="text-light">
+                  About Us
                 </a>
               </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  About
+              <li>
+                <a href="#" className="text-light">
+                  Contact
                 </a>
               </li>
             </ul>
           </div>
-          <div className="col mb-3">
-            <h5>Section</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Home
-                </a>
+
+          {/* Contact Information */}
+          <div className="col-md-4 mb-4">
+            <h5>Contact Us</h5>
+            <ul className="list-unstyled">
+              <li className="text-light">
+                <i className="bi bi-geo-alt-fill me-2"></i>123 Foodie Lane,
+                Flavor Town, India
               </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Features
-                </a>
+              <li className="text-light">
+                <i className="bi bi-telephone-fill me-2"></i>987654310
               </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  About
-                </a>
+              <li className="text-light">
+                <i className="bi bi-envelope-fill me-2"></i>info@bitebuddy.com
               </li>
             </ul>
           </div>
-          <div className="col mb-3">
-            <h5>Section</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-light">
-                  About
-                </a>
-              </li>
-            </ul>
-          </div>
-        </footer>
+        </div>
+
+        <div className="text-center mt-4">
+          <p>
+            &copy; {new Date().getFullYear()} BiteBuddy. All Rights Reserved.
+          </p>
+        </div>
       </div>
-    </>
+    </footer>
   );
-};
+}
 
 export default Footer;

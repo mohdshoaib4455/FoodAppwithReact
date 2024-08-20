@@ -1,0 +1,535 @@
+.Header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid #21212149;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.logo h2 {
+    font-size: 32px;
+    /* font-family: fantasy; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.navbarmain {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarmain ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+    margin: 0px;
+
+}
+
+.navbarmain ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.searchbar {
+    width: 25%;
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar input {
+    width: 210px;
+    border: none;
+    padding: 0px 10px;
+    height: 35px;
+    border: 1px solid #212121;
+    border-radius: 4px;
+}
+
+.searchbar button {
+    width: 80px;
+    height: 35px;
+    border: 1px solid black;
+    background-color: #212121;
+    border-radius: 4px;
+}
+
+.searchbar i {
+    font-size: 16px;
+}
+
+.menu {
+    display: none;
+}
+
+@media(max-width: 1200px) {
+    .Header {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        background-color: white;
+        border-bottom: 1px solid #21212149;
+    }
+
+    .logo {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .logo h2 {
+        font-size: 30px;
+        /* font-family: fantasy; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+
+    }
+
+    .navbar {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px;
+        margin: 0px;
+
+    }
+
+    .navbar ul li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .searchbar {
+        width: 25%;
+        height: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .searchbar input {
+        width: 180px;
+
+        border: none;
+        padding: 0px 10px;
+        height: 33px;
+        border: 1px solid #212121;
+        border-radius: 4px;
+    }
+
+    .searchbar button {
+        width: 70px;
+        height: 33px;
+        border: 1px solid black;
+        background-color: #212121;
+        border-radius: 4px;
+    }
+
+    .searchbar i {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 992px) {
+    .Header {
+        width: 100%;
+        height: 80px;
+
+        display: flex;
+
+        align-items: center;
+        padding: 10px 50px;
+        z-index: 10;
+        background-color: white;
+        border-bottom: 1px solid #21212149;
+        position: relative;
+    }
+
+    .logo {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .logo h2 {
+        font-size: 30px;
+        /* font-family: fantasy; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+
+    }
+
+    .navbar {
+        width: 50%;
+        height: 400px;
+
+        position: absolute !important;
+        top: 71px;
+        left: 0px;
+    }
+
+    .navbar ul {
+        width: 100%;
+        height: 400px;
+        padding: 30px 0px !important;
+        background-color: #212121 !important;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .navbar ul li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .searchbar {
+        width: 50%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .searchbar input {
+        width: 210px;
+
+        border: none;
+        padding: 0px 10px;
+        height: 33px;
+        border: 1px solid #212121;
+        border-radius: 4px;
+    }
+
+    .searchbar button {
+        width: 100px;
+        height: 33px;
+        border: 1px solid black;
+        background-color: #212121;
+        border-radius: 4px;
+    }
+
+    .searchbar i {
+        font-size: 15px;
+    }
+
+    .menu {
+        display: block;
+
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu i {
+        font-size: 40px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 768px) {
+    .Header {
+        width: 100%;
+        height: 80px;
+
+        display: flex;
+
+        align-items: center;
+        padding: 10px 50px;
+        z-index: 10;
+        background-color: white;
+        border-bottom: 1px solid #21212149;
+        position: relative;
+    }
+
+    .logo {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .logo h2 {
+        font-size: 26px;
+        /* font-family: fantasy; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+
+    }
+
+    .navbar {
+        width: 100%;
+        height: 400px;
+        position: absolute !important;
+        top: 71px;
+        left: 0px;
+       
+    }
+
+
+    .navbar ul {
+        width: 100%;
+        height: 400px;
+        padding: 30px 0px !important;
+        background-color: #212121 !important;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+    }
+
+    /* navbar menu css */
+
+    .navbar1 {
+        width: 100%;
+        height: 400px;
+        position: absolute !important;
+        top: 79px;
+        left: 0px;
+        display: none;
+     
+    }
+
+    .navbar1 ul {
+        width: 100%;
+        height: 400px;
+        padding: 30px 0px !important;
+        background-color: #212121 !important;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar1 ul li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+    }
+
+
+    /* navbar menu css end */
+    .searchbar {
+        width: 70%;
+        padding: 10px 0px;
+        /* height: 100%; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .searchbar input {
+        width: 210px;
+        border: none;
+        padding: 0px 10px;
+        height: 30px;
+        border: 1px solid #212121;
+        border-radius: 4px;
+    }
+
+    .searchbar button {
+        width: 90px;
+        height: 30px;
+        border: 1px solid black;
+        background-color: #212121;
+        border-radius: 4px;
+    }
+
+    .searchbar i {
+        font-size: 15px;
+    }
+
+    .menu {
+        display: block;
+
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu i {
+        font-size: 40px;
+        color: #212121;
+    }
+}
+
+@media(max-width: 576px) {
+    .Header {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        z-index: 10;
+        background-color: white;
+        border-bottom: 1px solid #21212149;
+        position: relative;
+    }
+
+    .logo {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo h2 {
+        font-size: 30px;
+        /* font-family: fantasy; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+
+    }
+
+    .navbar {
+        width: 100%;
+        height: 400px;
+
+        position: absolute !important;
+        top: 101px;
+        left: 0px;
+    }
+
+    .navbar ul {
+        width: 100%;
+        height: 400px;
+        padding: 50px 0px !important;
+        background-color: #212121 !important;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .navbar ul li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .searchbar {
+        width: 100%;
+        padding: 10px 0px;
+        /* height: 100%; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .searchbar input {
+        width: 180px;
+
+        border: none;
+        padding: 0px 10px;
+        height: 28px;
+        border: 1px solid #212121;
+        border-radius: 2px;
+    }
+
+    .searchbar button {
+        width: 120px;
+        height: 28px;
+        border: 1px solid black;
+        background-color: #212121;
+        border-radius: 2px;
+    }
+
+    .searchbar i {
+        font-size: 15px;
+    }
+
+    .menu {
+        display: block;
+
+        /* height: 33px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .menu i {
+        font-size: 40px;
+    }
+}

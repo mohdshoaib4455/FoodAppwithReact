@@ -452,7 +452,61 @@
 
 }
 @media(max-width: 576px) {
+/* Topbar csss */
 
+  .TopBar {
+    background-color: #474747;
+    height: 44px;
+
+
+  }
+
+  .bi {
+    color: white;
+    font-size: 10px;
+  }
+
+  .number {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: sans-serif;
+    align-items: center;
+  }
+
+  .left {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .number .div span {
+    color: white;
+    font-size: 12px;
+    /* margin-left: 5px; */
+  }
+
+  .topbaricons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .SocialMediaIcon {
+    background-color: #f9f9f73c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .SocialMediaIcon i {
+    font-size: 12px;
+    cursor: pointer;
+  }
   .bannerH1 {
     font-size: 50px;
     line-height: 50px;

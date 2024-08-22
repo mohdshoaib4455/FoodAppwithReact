@@ -23,7 +23,6 @@
 
 .logo h2 {
     font-size: 32px;
-    /* font-family: fantasy; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
 
@@ -52,6 +51,16 @@
 .navbarmain ul li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #212121;
     font-size: 16px;
     cursor: pointer;
     font-weight: 400;
@@ -325,7 +334,7 @@
         position: absolute !important;
         top: 71px;
         left: 0px;
-       
+
     }
 
 
@@ -358,7 +367,7 @@
         top: 79px;
         left: 0px;
         display: none;
-     
+
     }
 
     .navbar1 ul {

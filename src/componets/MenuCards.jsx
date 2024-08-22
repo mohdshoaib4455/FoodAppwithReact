@@ -16,7 +16,7 @@ const MenuCards = () => {
         <div className="row py-3">
           <div className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card d-flex justify-content-center align-items-center p-3"
+              className="card shadow d-flex justify-content-center align-items-center p-3"
               style={{ width: "18rem" }}
             >
               <img src={icon} className="card-img-top icon" alt="..." />
@@ -35,7 +35,7 @@ const MenuCards = () => {
 
           <div className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card d-flex justify-content-center align-items-center p-3"
+              className="card shadow d-flex justify-content-center align-items-center p-3"
               style={{ width: "18rem" }}
             >
               <img src={icon} className="card-img-top icon" alt="..." />
@@ -54,7 +54,7 @@ const MenuCards = () => {
 
           <div className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card d-flex justify-content-center align-items-center p-3"
+              className="card shadow d-flex justify-content-center align-items-center p-3"
               style={{ width: "18rem" }}
             >
               <img src={icon} className="card-img-top icon" alt="..." />
@@ -73,7 +73,7 @@ const MenuCards = () => {
 
           <div className="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card d-flex justify-content-center align-items-center p-3"
+              className="card shadow d-flex justify-content-center align-items-center p-3"
               style={{ width: "18rem" }}
             >
               <img src={icon} className="card-img-top icon" alt="..." />

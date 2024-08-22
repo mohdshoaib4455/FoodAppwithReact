@@ -14,7 +14,7 @@ const SectionThree = () => {
         <div className="row  py-3">
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card p-4 border-0 d-flex justify-content-center align-items-center"
+              className="card shadow p-4 border-0 d-flex justify-content-center align-items-center"
               style={{ width: "20rem" }}
             >
               <div className="card-body d-flex justify-content-center  flex-column p-3 py-2">
@@ -51,7 +51,7 @@ const SectionThree = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card p-4  border-0 d-flex justify-content-center align-items-center"
+              className="card shadow p-4  border-0 d-flex justify-content-center align-items-center"
               style={{ width: "20rem" }}
             >
               <div className="card-body d-flex justify-content-center  flex-column p-3 py-2">
@@ -66,10 +66,7 @@ const SectionThree = () => {
                   presented.
                 </p>
                 <hr class="my-4 border-dark"></hr>
-                <div
-                  className="card border-0 "
-                  style={{ maxWidth: 540 }}
-                >
+                <div className="card border-0 " style={{ maxWidth: 540 }}>
                   <div className="row no-gutters py-2">
                     <div className="col-md-4">
                       <img
@@ -89,7 +86,7 @@ const SectionThree = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center my-md-3 my-sm-2">
             <div
-              className="card p-4  border-0 d-flex justify-content-center align-items-center"
+              className="card shadow p-4  border-0 d-flex justify-content-center align-items-center"
               style={{ width: "20rem" }}
             >
               <div className="card-body d-flex justify-content-center  flex-column p-3 py-2">
@@ -103,7 +100,7 @@ const SectionThree = () => {
                   extraordinary. The food was the highlight of our evening.
                   Highly recommended.
                 </p>
-                <hr class="my-4 border-dark"></hr>
+                <hr className="my-4 border-dark"></hr>
                 <div
                   className="card border-0 bg-light"
                   style={{ maxWidth: 540 }}

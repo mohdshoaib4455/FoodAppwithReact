@@ -1,12 +1,24 @@
-import React, { useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import "../css/Header.css";
+import { Link } from "react-router-dom";
+import { RecipeContext } from "../store/context";
 
 const Navbar = () => {
-  let [open, setopen] = useState(false)
+  let [open, setopen] = useState(false);
+  const { fetchData } = useContext(RecipeContext);
+
   let openFunction = () => {
-  setopen(!open)
-  }
-  console.log(open)
+    setopen(!open);
+  };
+  const inputValue = useRef();
+  let search = (event) => {
+     event.preventDefault(); 
+    const value = inputValue.current.value;
+    fetchData(value);
+   inputValue.current.value = "";
+    
+  };
+
   return (
     <>
       <div className="Header">
@@ -15,23 +27,31 @@ const Navbar = () => {
         </div>
         <div className={` navbarmain ${open ? "navbar" : "navbar1"}`}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
+            <li>
+              <Link to="/" className="link">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="link">
+                About
+              </Link>
+            </li>
             <li>Menu</li>
             <li>Pages</li>
             <li>Contact</li>
           </ul>
         </div>
-        <div className="searchbar">
-          <input type="text" placeholder="Search Food" />
+        <form onSubmit={search} className="searchbar">
+          <input ref={inputValue} type="text" placeholder="Search Food" />
           <button>
-            <i class="bi bi-search"></i>
+            <i className="bi bi-search"></i>
           </button>
 
           <div className="menu">
             <i onClick={openFunction} className="bi bi-list"></i>
           </div>
-        </div>
+        </form>
       </div>
     </>
   );

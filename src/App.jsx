@@ -1,28 +1,21 @@
-
-import './App.css'
-import Banner from './componets/Banner'
-import Footer from './componets/Footer'
-import Navbar from './componets/Header'
-import MenuCards from './componets/MenuCards'
-import SeactionOne from './componets/SeactionOne'
-import SectionThree from './componets/SectionThree'
-import SectionTwo from './componets/SectionTwo'
-import Topbar from './componets/Topbar'
+import { RecipeProvider } from "./store/context";
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Footer from "./componets/Footer";
+import Navbar from "./componets/Header";
+import Topbar from "./componets/Topbar";
 
 function App() {
-
   return (
     <>
-      <Topbar></Topbar>
-      <Navbar />
-      <Banner />
-      <MenuCards />
-      <SeactionOne />
-      <SectionTwo />
-      <SectionThree />
-      <Footer/>
+      <RecipeProvider>
+        <Topbar />
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </RecipeProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

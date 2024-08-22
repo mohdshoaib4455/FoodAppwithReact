@@ -14,23 +14,23 @@ const Topbar = () => {
               <span>+91 9084736362</span>
             </div>
             <div className="div">
-              <i class="bi bi-envelope"></i>
+              <i className="bi bi-envelope"></i>
               <span>Food@gmail.com</span>
             </div>
           </div>
 
           <div className="topbaricons">
             <div className="SocialMediaIcon">
-              <i class="bi bi-twitter-x"></i>
+              <i className="bi bi-twitter-x"></i>
             </div>
             <div className="SocialMediaIcon">
-              <i class="bi bi-facebook"></i>
+              <i className="bi bi-facebook"></i>
             </div>
             <div className="SocialMediaIcon">
-              <i class="bi bi-instagram"></i>
+              <i className="bi bi-instagram"></i>
             </div>
             <div className="SocialMediaIcon">
-              <i class="bi bi-github"></i>
+              <i className="bi bi-github"></i>
             </div>
           </div>
         </div>

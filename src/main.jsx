@@ -10,6 +10,12 @@ import SectionTwo from "./componets/SectionTwo.jsx";
 import SectionThree from "./componets/SectionThree.jsx";
 import About from "./About.jsx";
 import SearchResult from "./componets/SearchResult.jsx";
+import MenuPage from "./componets/MenuPage/MenuPage.jsx";
+import ALL from "./componets/MenuPage/ALl.jsx";
+import Breakfast from "./componets/MenuPage/Breakfast.jsx";
+import Dessert from "./componets/MenuPage/Dessert.jsx";
+import Vegetarian from "./componets/MenuPage/Vegetarian.jsx";
+import Vegan from "./componets/MenuPage/Vegan.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +36,17 @@ const router = createBrowserRouter([
       },
       { path: "/about", element: <About /> },
       { path: "/search", element: <SearchResult /> },
+      {
+        path: "/menu",
+        element: <MenuPage />,
+        children: [
+          { path: "/menu", element: <ALL /> },
+          { path: "/menu/breakfast", element: <Breakfast /> },
+          { path: "/menu/dessert", element: <Dessert /> },
+          { path: "/menu/veg", element: <Vegetarian /> },
+          { path: "/menu/Vegan", element: <Vegan /> },
+        ],
+      },
     ],
   },
 ]);

@@ -6,7 +6,6 @@ import Loader from "./Loader";
 const SearchResult = () => {
   const { recipe } = useContext(RecipeContext);
   const { fetching } = useContext(RecipeContext);
-  console.log(recipe)
 
   return (
     <>

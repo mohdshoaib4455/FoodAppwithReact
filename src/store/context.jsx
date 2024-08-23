@@ -9,7 +9,6 @@ export const RecipeProvider = ({ children }) => {
   const [dessert, SetDessert] = useState([]);
   const [Vegan, SetVegan] = useState([]);
   const [veg, Setveg] = useState([]);
-
   const naviagte = useNavigate();
   const [fetching, setfetching] = useState(false);
   // SearchMethods
@@ -23,7 +22,9 @@ export const RecipeProvider = ({ children }) => {
         setfetching(false);
       });
   };
-  // All Fooad
+
+
+  // All Food For Menu page
 
   useEffect(() => {
     fetch("https://www.themealdb.com/api/json/v1/1/filter.php?a=Indian")
@@ -34,24 +35,26 @@ export const RecipeProvider = ({ children }) => {
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
-  // breakfast
-  let Breakfast = () => {
+  // breakfast  menu page 
+
+  useEffect(() => {
     fetch("https://www.themealdb.com/api/json/v1/1/filter.php?c=Breakfast")
       .then((res) => res.json())
       .then((Data) => {
         SetBreakfast(Data.meals);
       });
-  };
-  // dessert
+  }, []);
 
-  let DessertFun = () => {
+  // dessert menu page
+
+  useEffect(() => {
     fetch("https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert")
       .then((res) => res.json())
       .then((Data) => {
         SetDessert(Data.meals);
       });
-  };
-  // Vegetarian
+  }, []);
+  // Vegetarian menu page
 
   useEffect(() => {
     fetch("https://www.themealdb.com/api/json/v1/1/filter.php?c=Vegetarian")
@@ -60,7 +63,7 @@ export const RecipeProvider = ({ children }) => {
         Setveg(Data.meals);
       });
   }, []);
-  // SetVegan
+  // SetVegan menu page
   useEffect(() => {
     fetch("https://www.themealdb.com/api/json/v1/1/filter.php?c=Vegan")
       .then((res) => res.json())
@@ -77,8 +80,6 @@ export const RecipeProvider = ({ children }) => {
         fetching,
         allFoods,
         breakfast,
-        Breakfast,
-        DessertFun,
         dessert,
         veg,
         Vegan,

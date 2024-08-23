@@ -16,6 +16,7 @@ import Breakfast from "./componets/MenuPage/Breakfast.jsx";
 import Dessert from "./componets/MenuPage/Dessert.jsx";
 import Vegetarian from "./componets/MenuPage/Vegetarian.jsx";
 import Vegan from "./componets/MenuPage/Vegan.jsx";
+import Contact from "./componets/ContectPage/Contect.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
         ),
       },
       { path: "/about", element: <About /> },
+      { path: "/contact", element: <Contact /> },
       { path: "/search", element: <SearchResult /> },
       {
         path: "/menu",

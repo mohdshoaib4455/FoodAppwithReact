@@ -1,0 +1,57 @@
+.contacth1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.conatctPera{
+    font-size: 18px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 22px;
+}
+.contactPage{
+    height: 900px;
+}
+
+
+
+
+
+
+@media(max-width: 1200px) {
+
+    .contacth1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 45px;
+    }
+
+   
+
+}
+
+@media(max-width: 992px) {
+
+    .contacth1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 45px;
+    }
+
+
+  
+}
+
+@media(max-width: 768px) {
+
+    .contacth1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 45px;
+    }
+
+  
+
+   
+
+}

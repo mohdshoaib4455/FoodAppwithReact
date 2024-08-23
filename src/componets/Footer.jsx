@@ -1,13 +1,13 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
   return (
     <footer className="bg-dark text-light py-5">
       <div className="container">
         <div className="row">
-          {/* Logo and Description */}
           <div className="col-md-4 mb-4">
             <h4>Yumly</h4>
             <p>
@@ -26,40 +26,32 @@ function Footer() {
               </a>
             </div>
           </div>
-
-          {/* Quick Links */}
           <div className="col-md-4 mb-4">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="text-light">
+                <Link to="/" className="text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-light">
-                  Recipes
-                </a>
+                <Link to="/about" className="text-white">
+                  About
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-light">
-                  Categories
-                </a>
+                <Link to="/menu" className="text-white">
+                  Menu
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-light">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-light">
+                <Link to="/contact" className="text-white">
                   Contact
-                </a>
+                </Link>
               </li>
+              
             </ul>
           </div>
-
-          {/* Contact Information */}
           <div className="col-md-4 mb-4">
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
@@ -75,12 +67,6 @@ function Footer() {
               </li>
             </ul>
           </div>
-        </div>
-
-        <div className="text-center mt-4">
-          <p>
-            &copy; {new Date().getFullYear()} BiteBuddy. All Rights Reserved.
-          </p>
         </div>
       </div>
     </footer>

@@ -42,18 +42,25 @@ const Navbar = () => {
                 Menu
               </Link>
             </li>
-            <li>Pages</li>
-            <li>Contact</li>
+
+            <li>
+              <Link to="/contact" className="link">
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
         <form onSubmit={search} className="searchbar">
           <input ref={inputValue} type="text" placeholder="Search Food" />
           <button>
-            <i className="bi bi-search"></i>
+            <i className="bi bi-search text-white"></i>
           </button>
 
           <div className="menu">
-            <i onClick={openFunction} className="bi bi-list"></i>
+            <i
+              onClick={openFunction}
+              className={`${open ? "bi bi-x-lg" : "bi bi-list"}`}
+            ></i>
           </div>
         </form>
       </div>

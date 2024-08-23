@@ -1,7 +1,6 @@
 import React, { createContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 export const RecipeContext = createContext();
-
 export const RecipeProvider = ({ children }) => {
   const [recipe, setRecipe] = useState([]);
   const [allFoods, setallFooeds] = useState([]);

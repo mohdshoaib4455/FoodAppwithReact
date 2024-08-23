@@ -24,7 +24,12 @@
     padding: 5px 30px;
     border-radius: 20px;
 }
-
+.menuPera{
+    font-size: 18px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 22px;
+}
 @media(max-width: 1200px) {
 
     .menuH1 {

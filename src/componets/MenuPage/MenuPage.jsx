@@ -9,14 +9,20 @@ const MenuPage = () => {
 
   return (
     <>
-      <div className="container-fluid my-5">
+      <div className="container-fluid  my-5">
         <div className="row">
           <div className="col-lg-12 d-flex justify-content-center align-items-center">
             <h1 className="menuH1">Our Menu</h1>
           </div>
+          <div className="col-lg-12 d-flex justify-content-center align-items-center">
+            <p className="menuPera">
+              We consider all the drivers of change gives you the components <br /> you
+              need to change to create a truly happens.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="container-fluid my-5 px-5">
+      <div className="container-fluid ">
         <div className="row">
           <div className="col-lg-12  d-flex justify-content-center align-items-center">
             <ul className="MenuNav">

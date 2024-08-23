@@ -3,7 +3,6 @@ import { RecipeContext } from "../../store/context";
 
 const Breakfast = () => {
     const { breakfast } = useContext(RecipeContext);
-    console.log(breakfast)
 
   return (
     <>

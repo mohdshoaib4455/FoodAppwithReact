@@ -58,7 +58,7 @@
     font-weight: 400;
     width: fit-content;
     position: relative;
-    
+
 }
 
 
@@ -178,8 +178,8 @@
     .searchbar button {
         width: 70px;
         height: 33px;
-        border: 1px solid black;
-        background-color: #212121;
+        border: 1px solid white;
+        background-color: #AD343E;
         border-radius: 4px;
     }
 
@@ -269,8 +269,8 @@
     .searchbar button {
         width: 100px;
         height: 33px;
-        border: 1px solid black;
-        background-color: #212121;
+        border: 1px solid white;
+        background-color: #AD343E;
         border-radius: 4px;
     }
 
@@ -279,7 +279,7 @@
     }
 
     .menu {
-       display: none !important;
+        display: none !important;
         height: 33px;
         display: flex;
         justify-content: center;
@@ -408,8 +408,8 @@
     .searchbar button {
         width: 90px;
         height: 30px;
-        border: 1px solid black;
-        background-color: #212121;
+        border: 1px solid white;
+        background-color: #AD343E;
         border-radius: 4px;
     }
 
@@ -514,8 +514,8 @@
     .searchbar button {
         width: 120px;
         height: 28px;
-        border: 1px solid black;
-        background-color: #212121;
+        border: 1px solid white;
+        background-color: #AD343E;
         border-radius: 2px;
     }
 
@@ -537,6 +537,7 @@
         font-size: 40px;
     }
 }
+
 @media(max-width: 400px) {
     .Header {
         width: 100%;
@@ -619,8 +620,8 @@
     .searchbar button {
         width: 120px;
         height: 28px;
-        border: 1px solid black;
-        background-color: #212121;
+        border: 1px solid white;
+        background-color: #AD343E;
         border-radius: 2px;
     }
 

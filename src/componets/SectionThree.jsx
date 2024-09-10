@@ -27,7 +27,7 @@ const SectionThree = () => {
                   the moment we stepped in, we were enveloped in an inviting
                   atmosphere and greeted with warm smiles.
                 </p>
-                <hr class="my-4 border-dark"></hr>
+                <hr className="my-4 border-dark"></hr>
                 <div
                   className="card border-0 bg-light"
                   style={{ maxWidth: 540 }}
@@ -65,7 +65,7 @@ const SectionThree = () => {
                   anniversary dinner. Each dish was prepared and beautifully
                   presented.
                 </p>
-                <hr class="my-4 border-dark"></hr>
+                <hr className="my-4 border-dark"></hr>
                 <div className="card border-0 " style={{ maxWidth: 540 }}>
                   <div className="row no-gutters py-2">
                     <div className="col-md-4">
